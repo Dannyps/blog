@@ -57,7 +57,6 @@ minima:
       icon: globe
       pack: solid
       url: "https://dannyps.net"
-    - title: 
 
 # Build settings
 theme: minima
