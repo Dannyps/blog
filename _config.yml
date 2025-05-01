@@ -20,19 +20,49 @@
 
 title: Dannyps
 email: blog-mail@dannyps.net
+
+author:
+  name: Dannyps
+  email: blog-mail@dannyps.net
+
 description: >- # this means to ignore newlines until "baseurl:"
   Sometimes we need to write things. And sometimes we wouldn't mind sharing those thing with the world.
   Sometime those things are interesting. When all those things are true, we publish them in a blog. Welcome to mine.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dannyps.net" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: dannyps97
-github_username:  dannyps
+minima:
+  # Minima skin selection. Available skins are:
+  #   Available skins:
+  #     * classic            Default, light color scheme.
+  #     * dark               Dark variant of the classic skin.
+  #     * auto               Adaptive skin based on the default classic and dark skins.
+  #     * solarized-light    Light variant of solarized color scheme.
+  #     * solarized-dark     Dark variant of solarized color scheme.
+  #     * solarized          Adaptive skin for solarized color scheme skins.
+  skin: dark
+  social_links:
+    - title: Github
+      icon: github
+      pack: brands
+      url: "https://github.com/dannyps"
+    - title: X (formerly Twitter)
+      icon: x-twitter
+      pack: brands
+      url: "https://x.com/dannyps97"
+    - title: LinkedIn
+      icon: linkedin
+      pack: brands
+      url: "https://www.linkedin.com/in/dannyps/"
+    - title: Website
+      icon: globe
+      pack: solid
+      url: "https://dannyps.net"
+    - title: 
 
 # Build settings
 theme: minima
 plugins:
   - jekyll-feed
-
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
