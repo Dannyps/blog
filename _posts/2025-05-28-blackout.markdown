@@ -1,0 +1,55 @@
+---
+layout: post
+title: "Lights out, what now —  a reflection towards the Internet"
+date: 2025-05-28 21:00:00 +0100
+tags: portugal power
+---
+
+## Lights out
+
+April 28th, 2025 is a day that will be in many Portuguese and Spanish people's memories. At 11:33 WEST, the power went out in the Iberian Peninsula. Everything connected to a wall socket not powered by a generator or a UPS died seemingly at the same time.
+
+In the aftermath, several people wrote fancy texts on how the blackout taught them something. And I mocked them. It wasn't until a couple of weeks later I realised it had taught me something too. 
+
+Our work with computers is only viable for as long as there is electrical power. And this is obvious, of course: we also need microcontrollers, and people who can design them, and people who extract the components for building those controllers, as well as the ones who design the keyboards we use, as well as screen technologies that we need to display meaningful output to the end users.
+
+The thing with electricity, however, is how we need it on a constant basis. Everything else could stop being produced now and we'd still have everything we have thus far, but that's not the case with power.
+
+## Actually, there's something else: the **Internet**.
+
+> When considering *telecommunication* between private people, the Internet has become the (single) ubiquitous solution, without which no one can really communicate anymore. Even phone calls run on VoIP now.
+
+
+When I was young, there were already PCs in my home, which I used to access the internet via the ADSL connection we had.
+
+But I remember my first computer, the one that was strictly mine. It ran Windows XP with Service Pack 2. I also managed to install Microsoft Office XP. Despite having an internet connection at home, I had no ethernet connection to the router... due to physical constraints of distance. I could have used a wireless dongle to connect my computer to the internet, but I didn't because I had no idea what USB WiFi dongles were! My dad knew, but I figure he wanted me away from the web on my own PC when I was that young.
+
+So here's the scenario: 8-10 year old me had a PC which I could use to do school assignments, play games, listen to CDs, exchange files with friends using thumb drives... but no internet access whatsoever. No updates. No IRC or Reddit (I knew not of those at the time). I could use another PC to access my e-mail and MSN, but I did not spend a lot of time there.
+
+Bringing that experience to the present, it sounds almost ridiculous that someone could use a computer without internet. And while the way it has been created does introduce a lot of redundancy, I just can't shake the feeling that sooner or later we may have some sort of Internet blackout on our hands, be it due to attacks, laws, or other creative causes.
+
+In fact, such a scenario could present in many ways:
+ - An isolated continent.
+ - An isolated country.
+ - Isolated cities.
+ - Isolated households/offices/schools/etc.
+ - And, most likely, a group of ISPs or IXPs.
+
+How ready are we, from an individual point of view, to live without internet access, as we know it, for a long period of time? Imagine that, all of a sudden you lose access to your e-mail. Your files on the cloud. Your customers' systems. Your streaming services.
+
+Imagine that, all of a sudden, and for the next few weeks, you could only access your street neighbours' networks. I wonder if we could create City Area Networks or something similar!
+
+## Getting ready
+
+Some people were ready for the blackout. Those that weren't, went shopping for... toilet paper.
+
+Then there's the internet. I consider myself moderately ready for a lack of Internet, but we can always do more.
+
+💡 Here are some ideas:
+ - Have local backups of your most important cloud files. Outdated backups are better than no backups at all. Bonus points if you manage to automate your local backups.
+ - Become a [radio amateur](https://en.wikipedia.org/wiki/Amateur_radio) and connect to people who do the same: this way you can connect to people without resorting to the Internet.
+ - Alternatively, make sure you have a simple battery-powered FM radio to listen to news as things develop around you. And don't hope to listen to the radio on your smartphone, that's not viable anymore.
+ - Make sure you can access local media you may own, be it music CDs, game installers, etc. Ripping is a great way to preserve your collection!
+ - If you're using home automation tools, make sure they do not depend on outside connectivity in order to work in your home ecosystem.
+ - Maintain a Linux mirror for a distro. How cool would it be if you became the apt source for everyone in your city? Dreadful, but cool.
+ - Keep your Linux ISOs handy. Yes, the ISOs, preferably the complete installation images.
