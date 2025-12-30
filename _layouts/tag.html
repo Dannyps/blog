@@ -1,0 +1,29 @@
+---
+layout: default
+---
+<div class="tag-page">
+  <h1>Posts tagged "{{ page.tag }}"</h1>
+  
+  <div class="post-list">
+    {%- for post in site.tags[page.tag] -%}
+      <article class="post-item">
+        <h2>
+          <a class="post-link" href="{{ post.url | relative_url }}">
+            {{ post.title | escape }}
+          </a>
+        </h2>
+        <p class="post-meta">
+          <time datetime="{{ post.date | date_to_xmlschema }}">
+            {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+            {{ post.date | date: date_format }}
+          </time>
+        </p>
+        {%- if post.excerpt -%}
+          <p class="post-excerpt">{{ post.excerpt | strip_html | truncatewords: 30 }}</p>
+        {%- endif -%}
+      </article>
+    {%- endfor -%}
+  </div>
+  
+  <p><a href="{{ '/' | relative_url }}">← Back to all posts</a></p>
+</div>
