@@ -27,7 +27,7 @@ author:
 
 description: >- # this means to ignore newlines until "baseurl:"
   Sometimes we need to write things. And sometimes we wouldn't mind sharing those thing with the world.
-  Sometime those things are interesting. When all these conditions are true, we publish those things in a blog. Welcome to mine.
+  Sometimes those things are interesting. When all these conditions are true, we publish those things in a blog. Welcome to mine.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://blog.dannyps.net" # the base hostname & protocol for your site, e.g. http://example.com
 minima:
